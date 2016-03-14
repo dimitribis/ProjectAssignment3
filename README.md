@@ -1,1 +1,1 @@
-GitHub repo for the Coursera Class "GEtting And Cleanong Data" containing the final project course.
+GitHub repo for the Coursera Class "Getting And Cleanong Data" containing the final project course.
