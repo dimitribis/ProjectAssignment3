@@ -30,8 +30,8 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 The complete list of variables of each feature vector is available right here :
 
@@ -102,4 +102,4 @@ The complete list of variables of each feature vector is available right here :
 * 65 fBodyBodyGyroJerkMag-mean()
 * 66 fBodyBodyGyroJerkMag-std()
 
-Steps transformations from the original date set are included in the script file.
+Steps transformations from the original data set are included in the script file.
