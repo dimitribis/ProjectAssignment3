@@ -208,6 +208,9 @@ head(tidyData, 1)
 #   fBodyBodyGyroJerkMag-mean() fBodyBodyGyroJerkMag-std() activity
 # 1                  -0.9919904                 -0.9906975 STANDING
 
+# Finally we create the file for further analysis
+write.csv(tidyData, "./data/tidyData1.csv")
+
 #----------------------------------------------------------------------------#
 # 5.From the data set in step 4, creates a second, independent tidy data set #
 # with the average of each variable for each activity and each subject.      #
@@ -325,3 +328,6 @@ tail(tidyDataAvg, 10)
 # 8  WALKING_UPSTAIRS      28         0.2620058       -0.02794439        -0.1215140      -0.24206243      -0.14675388      -0.28598691            0.8545082           -0.3332240
 # 9  WALKING_UPSTAIRS      29         0.2654231       -0.02994653        -0.1180006      -0.08677156      -0.12212829       0.09954435            0.9292590           -0.2271201
 # 10 WALKING_UPSTAIRS      30         0.2714156       -0.02533117        -0.1246975      -0.35050448      -0.12731116       0.02494680            0.9318298           -0.2266473
+
+# Finally we create the file for further analysis
+write.csv(tidyDataAvg, "./data/tidyDataAvg.csv")
